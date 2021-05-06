@@ -1,0 +1,31 @@
+[tool.poetry]
+name = "datalake"
+version = "0.1.0"
+description = ""
+authors = ["Rodrigo Lazarini Gil <nbrgil@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.7.3"
+google-cloud-storage = "^1.32.0"
+google-cloud-bigquery = "^2.3.1"
+PyYAML = "^5.3.1"
+fsspec = "^0.8.4"
+gcsfs = "^0.7.1"
+xlrd = "^1.2.0"
+pydicom = "^2.1.1"
+matplotlib = "^3.3.3"
+numpy = "^1.19.4"
+poetry-core = "1.0.0"
+pydantic = {extras = ["dotenv"], version = "^1.7.3"}
+avro = "^1.10.2"
+opencv-python = "^4.5.1"
+nibabel = "^3.2.1"
+pandas = "^1.2.4"
+
+[tool.poetry.dev-dependencies]
+autopep8 = "^1.5.4"
+pyspark = "3.0.1"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
